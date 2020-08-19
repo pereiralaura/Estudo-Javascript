@@ -30,3 +30,6 @@ console.log(!!(isAtivo = false))
 
 /* Considerações */
 console.log(!!('' || null || ' ')) // Utilizando 'ou' para testar os parametros
+
+let nome = ''
+console.log(nome || 'Desconhecido') // Se não tiver nome, imprimirá Desconhecido
