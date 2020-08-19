@@ -1,7 +1,9 @@
 <h1 align="center">
-  📚 Estudos de Javascript
+  📚 Estudando Javascript
 </h1>
 
 ## :rocket: Sobre o repositório
 
-Este é um repositório destinado ao estudo de Javascript
+Este é um repositório destinado ao estudo de Javascript.<br>
+Os conteudos estão separados em:<br>
+  *Fundamentos*
