@@ -27,3 +27,5 @@ console.log("Show!" *2) // NaN invés de Imprimir 2 vezes 'Show!'
 // console.log(10.toString())  Não é possível executar Unexpected
 console.log((10).toString()) // Este ele consegue transformar em String
 console.log((10.345).toFixed(2)) // Para definir casas decimais em números literais
+
+console.log('3' + 2) //Concatenou
