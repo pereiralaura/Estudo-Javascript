@@ -46,3 +46,17 @@ console.log(rand(obj)) // Randon entre os paramentros min e max
 console.log(rand({ min: 955 })) // Randon entre 955 e o max
 console.log(rand({})) // Random entre 0 e 1000
 console.log(rand()) // ERROR
+
+/* Parte 04 */
+
+function rand2([min = 0, max = 1000]){
+    if(min > max) [min,max] = [max,min]
+    const valor = Math.random() * (max-min) + min
+    return Math.floor(valor)
+}
+
+console.log(rand2([50, 40])) // Chamando como array - random entre 50 e 40
+console.log(rand2([992])) // random entre 992 e max
+console.log(rand2([, 10])) // random entre  min e 10
+console.log(rand2([])) // random entre min e max
+console.log(rand()) // ERROR - desistruturar algo undefined ou null
