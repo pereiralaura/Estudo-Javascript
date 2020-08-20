@@ -12,6 +12,7 @@ Os conteudos estão separados em:<br>
   <ul>
     <li>1) Fundamentos</li>
     <li>2) Estruturas de Controle</li>
+    <li>3) Funções</li>
     <li>Utilitários</li>
   </ul>
 <hr>
