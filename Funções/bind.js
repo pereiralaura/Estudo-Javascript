@@ -12,4 +12,3 @@ falar() // undefined - conflito Funcional e Orientado a Objetos (this mudou o lo
 const falardePessoa = pessoa.falar.bind(pessoa) // .bind() fará o this continuar apontando para o lugar correto
 falardePessoa() // problema resolvido com o Bind
 
-const falar2 = pessoa.falar
