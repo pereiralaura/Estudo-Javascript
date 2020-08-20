@@ -7,8 +7,9 @@
 Este é um repositório destinado ao estudo de Javascript.<br>
 Os conteudos estão separados em:<br>
   <ul>
-    <li>Fundamentos</li>
-    <li>Utilitários</li>
+    <li>0) Utilitários</li>
+    <li>1) Fundamentos</li>
+    <li>2) Estruturas de Controle</li>
   </ul>
 <hr>
 *Créditos: Curso Web Moderno Completo - Cod3r*
