@@ -6,5 +6,8 @@
 
 Este é um repositório destinado ao estudo de Javascript.<br>
 Os conteudos estão separados em:<br>
-  *Fundamentos*
-  *Utilitários*
+  <ul>
+    <li>*Fundamentos*</li>
+    <li>*Utilitários*</li>
+  </ul>
+  
