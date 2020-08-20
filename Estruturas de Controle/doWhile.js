@@ -1,3 +1,7 @@
+/* 
+    do While garante que pelo menos uma vez será feita a repetição
+*/
+
 function getRandonInteger(min, max) {  // Conseguir um inteiro aleatório entre o minimo e o máximo
     const value = Math.random() * (max-min) + min // Calcula um número aleatório entre o min e o max
     return Math.floor(value) // retorna o valor arredondado para baixo
@@ -5,8 +9,9 @@ function getRandonInteger(min, max) {  // Conseguir um inteiro aleatório entre 
 
 let opcao = 0
  
-while (opcao != -1){ // Enquanto a opção for diferente de -1, ele executará o bloco abaixo
+do{ // Faça!
     opcao = getRandonInteger(-1,10) // opção recebe o valor resultante da função getRandonInteger()
     console.log(`A opção é ${opcao}.`)
-}
+}while (opcao != -1) // enquanto opção é diferente de -1
+
 console.log('Fim!')
