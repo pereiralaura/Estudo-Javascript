@@ -7,3 +7,4 @@
 Este é um repositório destinado ao estudo de Javascript.<br>
 Os conteudos estão separados em:<br>
   *Fundamentos*
+  *Utilitários*
