@@ -35,3 +35,14 @@ const [,[, nota]] = [[,8,8],[9,6,8]] // Array dentro de outro array - aninhado
 console.log(nota);
 
 /* parte 03 */
+
+function rand({min = 0, max = 1000}){ // Passar um objeto para função, e tire os dois atributos prontos
+    const valor = Math.random() * (max-min) + min
+    return Math.floor(valor)
+} 
+
+const obj = {max:50, min: 40}
+console.log(rand(obj)) // Randon entre os paramentros min e max
+console.log(rand({ min: 955 })) // Randon entre 955 e o max
+console.log(rand({})) // Random entre 0 e 1000
+console.log(rand()) // ERROR
