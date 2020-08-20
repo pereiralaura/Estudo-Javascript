@@ -5,7 +5,7 @@
 ## :rocket: Sobre o repositório
 <hr>
 Este é um repositório destinado ao estudo de Javascript.<br>
-*Recomendo que seja seguindo a seguinte ordem citada abaixo para melhor aprendizado*
+<p> Recomendo que seja seguido a seguinte ordem citada abaixo para melhor aprendizado </p>
 Os conteudos estão separados em:<br>
   <ul>
     <li>1) Fundamentos</li>
