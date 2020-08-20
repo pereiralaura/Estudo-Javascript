@@ -3,6 +3,8 @@
 </h1>
 
 ## :rocket: Sobre o repositório
+
+Estado atual: aula 64 de 121.
 <hr>
 Este é um repositório destinado ao estudo de Javascript.<br>
 Recomendo que seja seguido a seguinte ordem citada abaixo para melhor aprendizado<br><br>
